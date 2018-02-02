@@ -1,0 +1,253 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    background-color: #eee;
+}
+#header {
+    position: fixed;
+    width: calc(100% - 65px);
+    height: 25px;
+    padding: 15px;
+    padding-left: 50px;
+    background-color: #850;
+    box-shadow: 0px 0px 5px #555;
+    color: #fff;
+    font-size: 14pt;
+    background-image: url('icon.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px center;
+    top: 0px;
+    z-index: 999;
+}
+
+.backBtn {
+    float: right;
+    width: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#flag, #folder {
+    display: none;
+}
+
+input, select {
+    display: block;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 14pt;
+    border: solid .5px #850;
+    background-color: #fff;
+}
+input[type=submit] {
+    background-color: #850;
+    color: #fff;
+    margin: auto;
+    width: 50%
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #555;
+    padding: 20px 10px;
+}
+.box#Regions, .box#Sync {
+    max-width: 400px;
+}
+.box h1 {
+    text-align: center;
+    color: #850;
+}
+
+.region {
+    background-color: #8808;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.region:hover {
+    background-color: #880a;
+}
+.flag {
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.regionName {
+    font-size: 2em;
+    display: inline-block;
+    transform: translateY(5px);
+    color: #000;
+    padding: 5px;
+}
+
+.collection {
+    display: inline-block;
+    width: calc(50% - 22px);
+    background-color: #fff;
+    border: 1px dashed #000;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.collection:hover {
+    padding: 3px;
+    border: 3px solid #880;
+}
+.collectionImage {
+    width: calc(100% - 10px);
+    height: 150px;
+    margin: 5px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.collectionName {
+    text-align: center;
+    font-size: 2em;
+    color: #880;
+    display: block;
+    padding: 5px;
+}
+
+.coin {
+    position: relative;
+    display: inline-block;
+    width: calc(50% - 22px);
+    background-color: #fff;
+    border: 1px dashed #555;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.coin:hover {
+    padding: 3px;
+    border: 3px solid #850;
+}
+.coin.present {
+    padding: 0px;
+    border: 6px solid #580;
+}
+.coin.present:before {
+    position: absolute;
+    width: 100%;
+    background-color: #0f83;
+    height: 200px;
+    content: '';
+}
+.coinImage {
+    width: calc(100% - 10px);
+    height: 150px;
+    margin: 5px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.coinName {
+    text-align: center;
+    font-size: 2em;
+    color: #850;
+    display: block;
+    padding: 5px;
+}
+#Coins h2 {
+    text-align: center;
+    color: #880;
+    font-weight: normal;
+    margin-top: -20px;
+}
+
+#Collections, #Coins {
+    display: none;
+}
+
+#uploadBtn {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2em;
+    color: #880;
+    cursor: pointer;
+    transition: transform .5s, opacity .5s;
+}
+#uploadBtn img {
+    width: 100%;
+    margin-bottom: -20px;
+}
+#uploadBtn:hover {
+    transform: scale(.8);
+}
+#syncKey {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size:2em;
+}
+#cloudKey {
+    position: absolute;
+    top: 175px;
+    width: 75%;
+    left: 12.5%;
+    text-align:center;
+    font-size: 500%;
+    color: #fff;
+    background: url('cloud.png') center no-repeat;
+    background-size: contain;
+    padding-top: 30%;
+    padding-bottom: 15%;
+    transition: transform .5s, opacity .5s;
+    transform: scale(.1);
+    opacity: 0;
+}
+
+@keyframes rotate {
+    0%   { transform: rotate(0deg); }
+    50%  { transform: rotate(270deg); }
+    100% { transform: rotate(0deg); }
+}
+#refresh {
+    animation: rotate 2s infinite;
+}
+
+
+@media screen and (max-width: 440px) {
+    .box {
+        width: calc(100% - 20px);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .box {
+        width: 600px;
+    }
+    .collection, .coin {
+        width: calc(33.3% - 22px);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .box {
+        width: 800px;
+    }
+    .collection, .coin {
+        width: calc(25% - 22px);
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .box {
+        width: 1000px;
+    }
+    .collection, .coin {
+        width: calc(20% - 22px);
+    }
+}

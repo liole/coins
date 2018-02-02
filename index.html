@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<title>Coins</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" href="icon.png" />
+		<link href="style.css" rel="stylesheet" />
+		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="initData.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+	    <div id="header">
+	        <span id="title">Coins</span>
+	        <img class="backBtn onlyHome" id="sync" src="sync.png" onclick="showSync()">
+	        <img class="backBtn onlyHome" id="refresh" src="refresh.png" onclick="refresh()">
+	        <img class="backBtn" id="flag" src="flag.png" onclick="backFlag()">
+	        <img class="backBtn" id="folder" src="folder.png" onclick="backCol()">
+	    </div>
+	    <div class="box" id="Regions">
+            <h1>Regions</h1>
+	        <div id="regList">
+	        </div> 
+	    </div>
+	    <div class="box" id="Collections">
+            <h1>Collections</h1>
+	        <div id="colList">
+	        </div> 
+	    </div>
+	    <div class="box" id="Coins">
+            <h1>Coins</h1>
+            <h2 id="coinStat">0 / ?</h2>
+	        <div id="coinList">
+	        </div> 
+	    </div>
+	    <div class="box" id="Sync">
+            <h1>Sync</h1>
+            <input id="syncKey" type="number" min="0" max="9999" 
+            	placeholder="SYNC KEY" oninput="keyChange()"/>
+            <div id="uploadBtn" onclick="upload()">
+            	<img src="upload.png">
+            	<span>UPLOAD</span>
+            </div>
+            <div id="cloudKey">0000<div>
+	    </div>
+	    <script type="text/javascript">
+	        init();
+	    </script>
+    </body>
+</HTML>
