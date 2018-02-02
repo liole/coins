@@ -32,23 +32,41 @@ function updateTitle() {
     }
 }
 
+function parseHash() {
+    var url = location.hash.substring(1);
+    if (url == "") {
+        backFlag();
+    } else if (url == "!") {
+        showSync();
+    } else {
+        var parts = url.split("/");
+        var region = data.find(r => r.name == parts[0]);
+        selectRegion(region);
+        if (parts.length > 1) {
+            var index = parseInt(parts[1]);
+            selectCollection(region.collections[index]);
+        }
+    }
+}
+
+window.onpopstate = function (e) {
+    parseHash();
+}
+
 function init() {
     if (localStorage.data == undefined) {
         initStorage();
     } else {
         window.data = JSON.parse(localStorage.data);
-        if (localStorage.version != version) {
-            
-        }
     }
     $('#refresh').css({opacity: 
-        localStorage.version == version ? 0 : 1});
+        (!window.version || localStorage.version == window.version) ? 0 : 1});
     $('#regList').empty();
     for (let region of data) {
         $('#regList').append(
             $('<div>', {
                 "class" : 'region',
-                click: () => selectRegion(region, true)
+                click: () => selectRegionGo(region, true)
             }).append(
                 $('<img>', {
                     "class": 'flag',
@@ -64,6 +82,16 @@ function init() {
     window.region = null;
     window.collection = null;
     switchTo("Regions");
+    parseHash();
+}
+
+function selectRegionGo(region, skip = false) {
+    if (region.collections.length == 1 && skip) {
+        window.region = region;
+        selectCollectionGo(region.collections[0]);
+    } else {
+        location.hash = "#" + region.name;
+    }
 }
 
 function selectRegion(region, skip = false) {
@@ -77,7 +105,7 @@ function selectRegion(region, skip = false) {
        $('#colList').append(
             $('<div>', {
                 "class" : 'collection',
-                click: () => selectCollection(coll)
+                click: () => selectCollectionGo(coll)
             }).append(
                 $('<img>', {
                     "class": 'collectionImage',
@@ -95,6 +123,11 @@ function selectRegion(region, skip = false) {
     } else {
         switchTo("Collections");
     }
+}
+
+function selectCollectionGo(coll) {
+    location.hash = "#" + region.name + "/" +
+        region.collections.findIndex(c => c.name == coll.name);
 }
 
 function selectCollection(coll) {
@@ -139,6 +172,10 @@ function selectCoin(coin, self) {
     updateStorage();
 }
 
+function backFlagGo() {
+    location.hash = "";
+}
+
 function backFlag() {
     $('.onlyHome').show();
     $('#folder').hide();
@@ -148,11 +185,11 @@ function backFlag() {
     updateTitle();
     switchTo("Regions");
 }
-function backCol() {
+
+function backColGo() {
     $('#folder').hide();
     collection = null;
-    updateTitle();
-    switchTo("Collections");
+    selectRegionGo(region);
 }
 function refresh() {
     localStorage.clear();
@@ -161,9 +198,9 @@ function refresh() {
 
 function merge(target, ext) {
     for (var region of ext) {
-        var match = target.filter(r => r.name == region.name);
-        if (match.length != 0) {
-            mergeRegion(match[0], region);
+        var match = target.find(r => r.name == region.name);
+        if (match) {
+            mergeRegion(match, region);
         } else {
             target.push(region);
         }
@@ -175,9 +212,9 @@ function mergeRegion(target, ext) {
         target.flag = ext.flag;
     }
     for (var coll of ext.collections) {
-        var match = target.collections.filter(c => c.name == coll.name);
-        if (match.length != 0) {
-            mergeCollection(match[0], coll);
+        var match = target.collections.find(c => c.name == coll.name);
+        if (match) {
+            mergeCollection(match, coll);
         } else {
             target.collection.push(coll);
         }
@@ -189,13 +226,13 @@ function mergeCollection(target, ext) {
         target.image = ext.image;
     }
     for (var coin of ext.coins) {
-        var match = target.coins.filter(c => c.name == coin.name);
-        if (match.length != 0) {
+        var match = target.coins.find(c => c.name == coin.name);
+        if (match) {
             if (coin.image) {
-                match[0].image = coin.image;
+                match.image = coin.image;
             }
             if (coin.present !== undefined) {
-                match[0].present = coin.present;
+                match.present = coin.present;
             }
         } else {
             target.coins.push(coin);
@@ -218,6 +255,10 @@ function noImagesData() {
     return res;
 }
 
+function showSyncGo() {
+    location.hash = "#!";
+}
+
 function showSync() {
     region = null;
     collection = null;
@@ -226,7 +267,7 @@ function showSync() {
     $('#flag').show();
     $('#syncKey').val('');
     $('#uploadBtn').css({opacity: 1, transform: "scale(1)"});
-    $('#cloudKey').text('done').css({opacity: 0, transform: "scale(.1)"});
+    $('#cloudKey').text('000').css({opacity: 0, transform: "scale(.1)"});
     switchTo('Sync');
 }
 
