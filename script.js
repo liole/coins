@@ -40,6 +40,7 @@ function updateTitle() {
     } else {
         $('#title').text('Coins');
     }
+    document.title = $('#title').text();
 }
 
 function parseHash() {
@@ -273,6 +274,7 @@ function showSync() {
     region = null;
     collection = null;
     $('#title').text('Sync');
+    document.title = $('#title').text();
     $('.onlyHome').hide();
     $('#flag').show();
     $('#syncKey').val('');
