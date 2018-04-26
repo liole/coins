@@ -1,4 +1,5 @@
-window.version = "1.2";
+window.dataVersion = "2.1";
+window.requiredAppVersion = "2.4";
 window.initData = [{
     name: 'Euro',
     flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/383px-Flag_of_Europe.svg.png',
@@ -56,6 +57,9 @@ window.initData = [{
         }, {
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_2euro_2001.jpg"
+        }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_2Euro.jpg"
         }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_2euro.jpg"
@@ -130,6 +134,9 @@ window.initData = [{
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_1euro_2000.jpg"
         }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_1euro_2014.jpg"
+        }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_1Euro.jpg"
         }, {
@@ -202,6 +209,9 @@ window.initData = [{
         }, {
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_50cents_2000.jpg"
+        }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_50cent.jpg"
         }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_50cent.jpg"
@@ -276,6 +286,9 @@ window.initData = [{
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_20cent_2000.jpg"
         }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_20cent.jpg"
+        }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_20cent.jpg"
         }, {
@@ -348,6 +361,9 @@ window.initData = [{
         }, {
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_10cent_2000.jpg"
+        }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_10cent.jpg"
         }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_10cent.jpg"
@@ -422,6 +438,9 @@ window.initData = [{
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_5cent_2000.jpg"
         }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_5cent_2014.jpg"
+        }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_5cent.jpg"
         }, {
@@ -494,6 +513,9 @@ window.initData = [{
         }, {
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_2cent_2000.jpg"
+        }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_2cent_2014.jpg"
         }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_2cent.jpg"
@@ -568,6 +590,9 @@ window.initData = [{
             name: "Netherlands",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_1cent_2000.jpg"
         }, {
+            name: "Netherlands",
+            image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/nl/Netherlands_1cent_2014.jpg"
+        }, {
             name: "Portugal",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/pt/Portugal_1cent.jpg"
         }, {
@@ -586,6 +611,70 @@ window.initData = [{
             name: "Vatican City",
             image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/va/Vatican_1cent_2002.jpg"
         }]
+    }]
+}, {
+    name: "Euro2",
+    flag: "https://thumbs.dreamstime.com/t/euro-currency-symbol-rotating-yellow-stars-endless-loop-47370579.jpg",
+    collections: [{
+        name: "2018",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Austria","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Austria_100years.jpg"},{"name":"Estonia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_estonia_independence.jpg"},{"name":"Estonia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_estonia_joint.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_france_cornflower.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_germany_anniversary.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_italy_anniversary.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_latvia_joint.jpg"},{"name":"Lithuania","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_lithuania_joint.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_Luxembourg_150years.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_slovakia_anniversary.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_spain_santiago.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2018_spain_felipe.jpg"}]
+    },{
+        name: "2017",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Andorra","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Andorra_100years.jpg"},{"name":"Andorra","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Andorra_pyrenean.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_belgium_liege.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Belgium_Ghent.jpg"},{"name":"Cyprus","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Cyprus_Paphos.jpg"},{"name":"Estonia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Estonia_Independence.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_finland_independence.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Finland_Nature.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_france_centenary.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_France_pink_ribbon.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_germany_rhineland.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Greece_Nikos.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Greece_Philippi.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Italy_Titus.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_italy_venice.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Latvia_Kurzeme.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Latvia_Latgale.jpg"},{"name":"Lithuania","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Lithuania_Vilnius.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Luxembourg_GrandDuke.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_luxembourg_anniversary.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Malta_Hagar_Qim.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Malta_Solidarity.jpg"},{"name":"Monaco","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Monaco_Carabiniers.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Portugal_Brandao.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Portugal_public_security.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_san_marino_giotto.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_SanMarino_Turismo.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_slovakia_university.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_slovenia_anniversary.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_spain_asturias.jpg"},{"name":"Vatican","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Vatican_Fatima.jpg"},{"name":"Vatican","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2017_Vatican_Saint_Peter_Saint_Paul.jpg"}]
+    },{
+        name: "2016",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Andorra","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_andorra_radio.jpg"},{"name":"Andorra","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_andorra_150_anniversary.jpg"},{"name":"Austria","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_austria.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_belgium.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_belgium_children.jpg"},{"name":"Estonia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_estonia.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_finland_wright.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_finland_leino.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_france.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_france_mitterand.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_germany.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_greece_monastery.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_greece_dimitri.jpg"},{"name":"Ireland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_ireland.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_italy_plauto_270.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_italy_donatello_270.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_latvia_agriculture.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_latvia_vidzeme.jpg"},{"name":"Lithuania","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_Lithuania_baltic_culture.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_luxembourg_bridge_270.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_malta_solidarity.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_malta.jpg"},{"name":"Monaco","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_monaco_charles.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_portugal_olympics_270.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_portugal_bridge.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_san_marino_donatello.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_san_marino_sheakspeare.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_slovakia_presidency.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_slovenia_independence.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_spain.jpg"},{"name":"Vatican","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_vatican_mercy.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2016_vatican_guard.jpg"}]
+    },{
+        name: "2015",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Andorra","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_andorra_30.jpg"},{"name":"Andorra","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_andorra_25.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Belgium.jpg"},{"name":"Euro area countries","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/joint_comm_2015_Austria.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Finland_akseli.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Finland.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_France_peace.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_France_Liberte.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_de_Hessen.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_de_Unity.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Greece.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Italy_expo.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Italy_Alighieri.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Latvia.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Latvia_Stork.jpg"},{"name":"Lithuania","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_lithuania.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Luxembourg.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Luxembourg_15_anniversary.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Malta_Republic1974.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Malta.jpg"},{"name":"Monaco","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Monaco.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Portugal.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Portugal_ship.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_San_Marino_25thGermanReunification.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_San_Marino.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Slovakia.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Slovenia.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Spain.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2015_Vatican_City.jpg"}]
+    },{
+        name: "2014",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Andorra","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_andorra_council.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Belgium_Cross.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Belgium.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Finland.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Finland_2.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_France_2.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_France.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Germany_Niedersachsen.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Greece.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Greece_2.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Italy_2.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Italy.jpg"},{"name":"Latvia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Latvia.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Luxembourg2.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Luxembourg.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Malta_2.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Malta.jpg"},{"name":"Netherlands","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Netherlands.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Portugal.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Portugal_Farming.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_San_Marino_Lazzari.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_San_Marino_Puccini.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Slovakia.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Slovenia.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Spain.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Spain_Head.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2014_Vatican.jpg"}]
+    },{
+        name: "2013",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Belgium.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Finland.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Finland_Suomi.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_fr_2.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_fr.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Germany.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_de.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Greece_Plato.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Greece.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Italy_Verdi.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Italy_Boccaccio.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Luxembourg.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Malta.jpg"},{"name":"Monaco","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Monaco.jpg"},{"name":"Netherlands","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Netherlands_Abdication.jpg"},{"name":"Netherlands","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Netherlands.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Portugal.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_San_Marino.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_sk.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_sl.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_es.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Vatican.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_Vatican_Rio.jpg"}]
+    },{
+        name: "2012",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_be.jpg"},{"name":"Euro area countries","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/joint_comm_2012_Austria.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_fi.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_fr.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_de.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_it.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_lu.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2013_lu.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_mt.jpg"},{"name":"Monaco","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_mc.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_pt.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/joint_comm_2012_San_Marino.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_es.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2012_va.jpg"}]
+    },{
+        name: "2011",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_be.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_fi.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_fr.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_de.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_el.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_it.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_lu.jpg"},{"name":"Malta","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_mt.jpg"},{"name":"Monaco","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_mc.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_pt.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_sm.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_sk.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_sl.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_es.jpg"},{"name":"The Netherlands","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_nl.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2011_va.jpg"}]
+    },{
+        name: "2010",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_be.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_fi.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_fr.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_de.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_el.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_it.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_lu.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_pt.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_sm.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_sl.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_es.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2010_va.jpg"}]
+    },{
+        name: "2009",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_be.jpg"},{"name":"Euro area countries","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/joint_comm_2009_Austria.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_fi.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_de.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_it.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_lu.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_pt.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_sm.jpg"},{"name":"Slovakia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_sk.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2009_va.jpg"}]
+    },{
+        name: "2008",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_Belgium.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_Finland.jpg"},{"name":"France","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_France1.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_de.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_Italy.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_luxembourg.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_Portugal1.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_San_Marino.jpg"},{"name":"Slovenia","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_Slovenia.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2008_Vatican.jpg"}]
+    },{
+        name: "2007",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Euro area countries","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/joint_comm_2007_Austria.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2007_Finland.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2007_Germany.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2007_luxembourg.jpg"},{"name":"Monaco","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2007_Monaco.jpg"},{"name":"Portugal","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2007_Portugal.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2007_San_marino.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2007_va.jpg"}]
+    },{
+        name: "2006",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2006_be.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2006_fi.jpg"},{"name":"Germany","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2006_de.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2006_it.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2006_lu.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2006_sm.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2006_va.jpg"}]
+    },{
+        name: "2005",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Austria","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_at.jpg"},{"name":"Belgium","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_be.jpg"},{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_fi.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_it.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_lu_2.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_sm.jpg"},{"name":"Spain","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_sp.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2005_va.jpg"}]
+    },{
+        name: "2004",
+        image: "https://www.ecb.europa.eu/euro/coins/common/shared/img/common_2euro_800.jpg",
+        coins: [{"name":"Finland","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2004_fi.jpg"},{"name":"Greece","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2004_el.jpg"},{"name":"Italy","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2004_it.jpg"},{"name":"Luxembourg","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2004_lu.jpg"},{"name":"San Marino","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2004_sm.jpg"},{"name":"Vatican City","image":"https://www.ecb.europa.eu/euro/coins/comm/shared/img/comm_2004_va.jpg"}]
     }]
 }, {
     name: 'Poland',
@@ -655,6 +744,18 @@ window.initData = [{
         name: 'Hryvnia',
         image: 'https://projectodessalife.files.wordpress.com/2011/05/ukrsetr.jpg',
         coins: [{
+            name: '10 Hryven',
+            image: 'uah/10uah2018.png'
+        }, {
+            name: '5 Hryven',
+            image: 'uah/5uah2018.png'
+        }, {
+            name: '2 Hryvni',
+            image: 'uah/2uah2018.png'
+        }, {
+            name: '1 Hryvnia 2018',
+            image: 'uah/1uah2018.png'
+        }, {
             name: '1 Hryvnia 2004',
             image: 'https://en.numista.com/catalogue/photos/ukraine/345.jpg'
         }, {

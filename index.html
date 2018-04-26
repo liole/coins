@@ -22,10 +22,12 @@
 	    <div class="box" id="Regions">
             <h1>Regions</h1>
 	        <div id="regList">
-	        </div> 
+	        </div>
+	        <div id="versions">Application - <strong id="appVer">v?.?</strong><br/>Database - <strong id="dataVer">v?.?</strong></div>
 	    </div>
 	    <div class="box" id="Collections">
-            <h1>Collections</h1>
+            <h1>Collections <img class="revBtn" id="reverse" src="reverse.png" onclick="revGo()"></h1>
+            <h2 id="collsStat" onclick="sortCollsGo()">0 / ?</h2>
 	        <div id="colList">
 	        </div> 
 	    </div>

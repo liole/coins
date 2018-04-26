@@ -28,6 +28,11 @@ body {
     margin-left: 15px;
     cursor: pointer;
 }
+.revBtn {
+    width: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+}
 #flag, #folder {
     display: none;
 }
@@ -89,6 +94,7 @@ input[type=submit] {
 }
 
 .collection {
+    position: relative;
     display: inline-block;
     width: calc(50% - 22px);
     background-color: #fff;
@@ -116,6 +122,21 @@ input[type=submit] {
     color: #880;
     display: block;
     padding: 5px;
+}
+.collectionStat {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    font-size: 1em;
+    background-color: rgba(136, 136, 0, 0.2);
+    color: #000;
+    border: 1px dashed #555;
+    display: block;
+    padding: 3px;
+}
+#collsStat:hover {
+    cursor: pointer;
+    color: #058;
 }
 
 .coin {
@@ -159,7 +180,7 @@ input[type=submit] {
     display: block;
     padding: 5px;
 }
-#Coins h2 {
+h2 {
     text-align: center;
     color: #880;
     font-weight: normal;
@@ -217,7 +238,11 @@ input[type=submit] {
 #refresh {
     animation: rotate 2s infinite;
 }
-
+#versions {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Monospace;
+}
 
 @media screen and (max-width: 440px) {
     .box {
