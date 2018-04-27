@@ -14,7 +14,7 @@ body {
     box-shadow: 0px 0px 5px #555;
     color: #fff;
     font-size: 14pt;
-    background-image: url('icon.png');
+    background-image: url('images/icon.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 5px center;
@@ -221,7 +221,7 @@ h2 {
     text-align:center;
     font-size: 500%;
     color: #fff;
-    background: url('cloud.png') center no-repeat;
+    background: url('images/cloud.png') center no-repeat;
     background-size: contain;
     padding-top: 30%;
     padding-bottom: 15%;

@@ -5,7 +5,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<meta name="mobile-web-app-capable" content="yes">
-		<link rel="icon" href="icon.png" />
+		<link rel="icon" href="images/icon.png" />
 		<link href="style.css" rel="stylesheet" />
 		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 		<script type="text/javascript" src="initData.js"></script>
@@ -14,10 +14,10 @@
 	<body>
 	    <div id="header">
 	        <span id="title">Coins</span>
-	        <img class="backBtn onlyHome" id="sync" src="sync.png" onclick="showSyncGo()">
-	        <img class="backBtn onlyHome" id="refresh" src="refresh.png" onclick="refresh()">
-	        <img class="backBtn" id="flag" src="flag.png" onclick="backFlagGo()">
-	        <img class="backBtn" id="folder" src="folder.png" onclick="backColGo()">
+	        <img class="backBtn onlyHome" id="sync" src="images/sync.png" onclick="showSyncGo()">
+	        <img class="backBtn onlyHome" id="refresh" src="images/refresh.png" onclick="refresh()">
+	        <img class="backBtn" id="flag" src="images/flag.png" onclick="backFlagGo()">
+	        <img class="backBtn" id="folder" src="images/folder.png" onclick="backColGo()">
 	    </div>
 	    <div class="box" id="Regions">
             <h1>Regions</h1>
@@ -26,7 +26,7 @@
 	        <div id="versions">Application - <strong id="appVer">v?.?</strong><br/>Database - <strong id="dataVer">v?.?</strong></div>
 	    </div>
 	    <div class="box" id="Collections">
-            <h1>Collections <img class="revBtn" id="reverse" src="reverse.png" onclick="revGo()"></h1>
+            <h1>Collections <img class="revBtn" id="reverse" src="images/reverse.png" onclick="revGo()"></h1>
             <h2 id="collsStat" onclick="sortCollsGo()">0 / ?</h2>
 	        <div id="colList">
 	        </div> 
@@ -42,7 +42,7 @@
             <input id="syncKey" type="number" min="0" max="9999" 
             	placeholder="SYNC KEY" oninput="keyChange()"/>
             <div id="uploadBtn" onclick="upload()">
-            	<img src="upload.png">
+            	<img src="images/upload.png">
             	<span>UPLOAD</span>
             </div>
             <div id="cloudKey">0000<div>

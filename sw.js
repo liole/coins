@@ -1,15 +1,14 @@
-var CACHE_NAME = 'offline-cache-v1';
+var CACHE_NAME = 'offline-cache-v2.6';
 var urlsToCache = [
     '/',
     '/script.js',
     '/style.css',
-// images
-    '/cloud.png',
-    '/flag.png',
-    '/icon.png',
-    '/refresh.png',
-    '/sync.png',
-    '/upload.png'
+    '/images/cloud.png',
+    '/images/flag.png',
+    '/images/icon.png',
+    '/images/refresh.png',
+    '/images/sync.png',
+    '/images/upload.png'
 ];
 
 self.addEventListener('install', function(event) {
