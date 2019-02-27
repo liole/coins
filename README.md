@@ -12,6 +12,7 @@ PWA, stores your data locally
 * Złoty (Poland)
 * Forint (Hungary)
 * Hryvnia/гривня (Ukraine)
+* Krone (Denmark)
 * *and more to come*
 
 ## Features

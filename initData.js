@@ -1,4 +1,4 @@
-window.dataVersion = "2.1";
+window.dataVersion = "3.0";
 window.requiredAppVersion = "2.4";
 window.initData = [{
     name: 'Euro',
@@ -735,6 +735,32 @@ window.initData = [{
         }, {
             name: '5 forint',
             image: 'https://www.mnb.hu/i/5-ft-rv-1.exact150x150.orig'
+        }]
+    }]
+}, {
+    name: 'Denmark',
+    flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/300px-Flag_of_Denmark.svg.png',
+    collections: [{
+        name: 'Kroner',
+        image: 'https://mk0urbanroamersb51eh.kinstacdn.com/wp-content/uploads/2017/12/Danish-coins-700x701.jpg',
+        coins: [{
+            name: '20 kroner',
+            image: 'https://www.leftovercurrency.com/wp-content/uploads/1970/01/20-danish-kroner-coin-obverse.jpg'
+        }, {
+            name: '10 kroner',
+            image: 'https://www.leftovercurrency.com/wp-content/uploads/1970/01/10-danish-kroner-coin-obverse.jpg'
+        }, {
+            name: '5 kroner',
+            image: 'https://www.leftovercurrency.com/wp-content/uploads/1970/01/5-danish-kroner-coin-obverse.jpg'
+        }, {
+            name: '2 kroner',
+            image: 'https://www.leftovercurrency.com/wp-content/uploads/1970/01/2-danish-kroner-coin-obverse.jpg'
+        }, {
+            name: '1 krone',
+            image: 'https://www.leftovercurrency.com/wp-content/uploads/1970/01/1-danish-krone-coin-obverse.jpg'
+        }, {
+            name: '50 øre',
+            image: 'https://www.leftovercurrency.com/wp-content/uploads/1970/01/50-ore-coin-denmark-obverse.jpg'
         }]
     }]
 }, {
